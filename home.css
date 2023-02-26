@@ -1,0 +1,1104 @@
+/* // ภาพิมล แก้วโลก */
+/* // พชร วิเชียรน้อย */
+/* *{
+    border:1px solid #009f3c;
+} */
+body {
+    background: white(236, 233, 231);
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* // navbar Homepage // ภาพิมล แก้วโลก*/
+.nav-promotion {
+    width: 100%;
+}
+/* // navbar Homepage // ภาพิมล แก้วโลก */
+.div-gray {
+    height: 40px;
+    width: 100%;
+    background-color: #BFC9CA;
+}
+/* // navbar Homepage // ภาพิมล แก้วโลก*/
+.col-p {
+    margin-top: 2%;
+}
+/* // navbar Homepage // ภาพิมล แก้วโลก */
+.col {
+    border: #fff;
+}
+/* // navbar Homepage// ภาพิมล แก้วโลก */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.mb-3 {
+    margin-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.allonline {
+    display: block;
+    position: absolute;
+
+    margin-left: 5%;
+    height: 100px;
+    width: 100px;
+}
+
+/* Style the tab */
+.tab-all {
+    display: inline-block;
+
+}
+
+.tab {
+    margin-top: 5%;
+    overflow: hidden;
+    background-color: #009f3c;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 99.80px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #148b09;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+/* // Dropdown Click ด้านซ้าย ( 9 หมวดหมู่) ของหน้า Homepage // ภาพิมล แก้วโลก */
+.sindbar {
+    /* margin-top: 1.4%; */
+    position: absolute;
+    display: inline-block;
+    /* border-color: red #32a1ce; */
+    margin-left: 20px;
+    /* border-color: #3AE92B; */
+    /* border: solid 0.3em; */
+    margin-top: 0.5%;
+    /* background-color: black; */
+    height: 500px;
+    width: 350px;
+}
+
+/* // Dropdown Click ด้านซ้าย ( 9 หมวดหมู่) ของหน้า Homepage // ภาพิมล แก้วโลก */
+/* dropdown */
+.dropbtn {
+    background-color:rgb(234, 238, 234);
+    color:rgb(12, 2, 2);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 350px;
+    display: block;
+    margin: auto; 
+    text-align: left 
+    
+}
+/* // Dropdown Click ด้านซ้าย ( 9 หมวดหมู่) ของหน้า Homepage // ภาพิมล แก้วโลก */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+/* // Dropdown Click ด้านซ้าย ( 9 หมวดหมู่) ของหน้า Homepage // ภาพิมล แก้วโลก */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+}
+/* // Dropdown Click ด้านซ้าย ( 9 หมวดหมู่) ของหน้า Homepage // ภาพิมล แก้วโลก  */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+   
+}
+/* // Dropdown Click ด้านซ้าย ( 9 หมวดหมู่) ของหน้า Homepage // ภาพิมล แก้วโลก  */
+.dropdown-content a:hover {
+    background-color: #f6f3f3;
+    
+    
+}
+/* // Dropdown Click ด้านซ้าย ( 9 หมวดหมู่) ของหน้า Homepage // ภาพิมล แก้วโลก */
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align:left !important;
+    
+}
+/* // Dropdown Click ด้านซ้าย ( 9 หมวดหมู่) ของหน้า Homepage // ภาพิมล แก้วโลก */
+.dropdown:hover .dropbtn {
+    background-color: #009f3c;
+   
+    
+}
+/* IMG */
+
+/* // ทำข้อมูลข่าวสารที่น่าสนใจของสินค้า // ภาพิมล แก้วโลก */
+.slidImg {
+    margin-top: 0.5%;
+    margin-left: 400px;
+    /* position: relative; */
+    display: inline-block;
+    /* background-color: black; */
+    height: 500px;
+    width: 500px;
+}
+
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    /* margin-top: 1.4%; */
+    max-width: 1000px;
+    /* position: relative; */
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+/* IMGRI */
+/* // ทำข้อมูลข่าวสารที่น่าสนใจของสินค้า // ภาพิมล แก้วโลก */
+.IMG-Ri {
+    margin-left: 1%;
+    margin-top: 0.5%;
+    position: absolute;
+    display: inline-block;
+    /* background-color: #3AE92B; */
+    height: 500px;
+    width: 350px;
+}
+/* // ทำข้อมูลข่าวสารที่น่าสนใจของสินค้า // ภาพิมล แก้วโลก */
+.promotion_img4 {
+    height: 300px;
+    width: 350px;
+    padding-bottom: 1%;
+
+}
+/* // ทำข้อมูลข่าวสารที่น่าสนใจของสินค้า // ภาพิมล แก้วโลก */
+.promotion_img5 {
+    height: 300px;
+    width: 350px;
+}
+
+/* ///footer */
+/* // ช่องทางติดต่อ // ภาพิมล แก้วโลก */
+.footer {
+    /* margin-top: 10%;
+    position: relative;
+    display: block; */
+    /* background-color: black; */
+    /* height: 500px;
+    width: 100%; */
+    display: block;
+
+}
+/* // ช่องทางติดต่อ // ภาพิมล แก้วโลก */
+.so_c {
+    border-style: solid;
+    border-color: #E0E2E1;
+    border-width: 0.5px 0;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+/* // ช่องทางติดต่อ // ภาพิมล แก้วโลก */
+.social {
+    margin-top: 20px;
+}
+
+
+/* // ช่องทางติดต่อ // ภาพิมล แก้วโลก */
+.footer-middle {
+    border-style: solid;
+    border-color: #3AE92B;
+    border-width: 0px 0px 5px 0px;
+    background-color: white;
+    height: 310px;
+    width: 100%;
+}
+/* // ช่องทางติดต่อ // ภาพิมล แก้วโลก */
+.footer-middle1 {
+    position: absolute;
+    display: inline-block;
+    /* background-color: blue; */
+    height: 300px;
+    width: 400px;
+}
+
+
+/* // ช่องทางติดต่อ // ภาพิมล แก้วโลก */
+.footer-middle2 {
+    margin-left: 410px;
+    position: absolute;
+    display: inline-block;
+    /* background-color: blueviolet; */
+    height: 300px;
+    width: 400px;
+}
+/* // ช่องทางติดต่อ // ภาพิมล แก้วโลก */
+.footer-middle3 {
+    margin-left: 820px;
+    position: absolute;
+    display: inline-block;
+    /* background-color: yellowgreen; */
+    height: 300px;
+    width: 400px;
+
+}
+
+/* // ช่องทางติดต่อ // ภาพิมล แก้วโลก */
+body {
+    background-color: white;
+  }
+
+
+  /* // ช่องทางติดต่อ // ภาพิมล แก้วโลก */
+.footerBottom {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #3C607C;
+    height: 100px;
+    width: 100%;
+}
+/* // ทำข้อมูลข่าวสารที่น่าสนใจของสินค้า // ภาพิมล แก้วโลก */
+.pro_One {
+    margin-top: 10%;
+    display: flex;
+    margin-left: 3rem;
+    /* margin-top: 100px;
+    position: relative;
+    display: block; */
+    /* background-color: #3AE92B; */
+    /* height: 220px;
+    width: 100%; */
+}
+
+/* // ทำข้อมูลข่าวสารที่น่าสนใจของสินค้า // ภาพิมล แก้วโลก */
+.pro_Two {
+    /* margin-top: 20px;
+    position: relative;
+    display: block; */
+    /* background-color: #3AE92B; */
+    /* height: 220px;
+    width: 100%; */
+    display: flex;
+    margin-left: 3rem;
+}
+/* // ทำข้อมูลข่าวสารที่น่าสนใจของสินค้า // ภาพิมล แก้วโลก */
+.Oneto1 {
+    margin-left: 20px;
+
+
+}
+/* // ทำข้อมูลข่าวสารที่น่าสนใจของสินค้า // ภาพิมล แก้วโลก */
+.shopdee {
+    margin-left: 20px;
+
+}
+
+/* head */
+
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+/* // Dropdown Click ส่วนของค้นหาข้อมูล หน้า Homepage // ภาพิมล แก้วโลก */
+/* search */
+.wrap {
+    margin-top: 25px;
+    width: 600px;
+    margin-left: 310px;
+    height: 200px;
+    /* background-color: #04AA6D; */
+    display: inline-block;
+    position: absolute;
+}
+/* // navbar Homepage // ภาพิมล แก้วโลก */
+.logo_allOnLine {
+    margin-top: 30px;
+    margin-left: 100px;
+    display: inline-block;
+    position: absolute;
+
+}
+/* // navbar Homepage // ภาพิมล แก้วโลก */
+.hearder {
+    height: 200px;
+    position: relative;
+    display: block;
+}
+
+.btn {
+    color: white;
+    border: #009f3c;
+    background-color: #009f3c;
+}
+
+input {
+    border-radius: 20px;
+}
+/* // หน้า Homepage (navbar )ในส่วนของตะกร้าสินค้า // ภาพิมล แก้วโลก */
+.Shop_ {
+    margin-top: 30px;
+    margin-left: 900px;
+    display: inline-block;
+    position: absolute;
+    height: 300px;
+    width: 100px;
+}
+/* // หน้า Homepage (navbar )ในส่วนของตะกร้าสินค้า  // ภาพิมล แก้วโลก */
+.cart {
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 200px;
+
+}
+/* // ปุ่มค้นหา ของหน้า Homepage // ภาพิมล แก้วโลก*/
+.input-group {
+    margin-left: 80px;
+}
+/* // หน้า Homepage (navbar )ในส่วนของสินค้าโปรด // ภาพิมล แก้วโลก */
+.heart {
+    width: 100%;
+    margin-left: 300px;
+    display: inline-block;
+    position: absolute;
+
+}
+/* // ปุ่มค้นหา ของหน้า Homepage // ภาพิมล แก้วโลก */
+.Search_hit {
+    margin-left: 380px;
+    margin-top: 4rem;
+    width: 50%;
+    /* background-color: #04AA6D; */
+    display: block;
+    position: absolute;
+   display: flex;
+}
+/* // ปุ่มค้นหา ของหน้า Homepage // ภาพิมล แก้วโลก */
+.Search_hit1{
+    display: flex;
+
+}
+.Search{
+    font-size: 12px;
+    margin-right: 11px;
+}
+
+.colo {
+    /* padding-left: 5rem;
+    padding-right: 0.5rem; */
+    scale: 50%;
+    margin-top: 0%;
+
+}
+
+.green {
+    background-color: #009f3c;
+    margin-bottom: 70px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+.colo {
+    padding-left: 5rem;
+    padding-right: 0.5rem;
+}
+
+/* ลดราคา */
+.promotion {
+
+    border-bottom: 5px solid #009f3c;
+    margin-bottom: 1rem;
+    color: green;
+
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ลดอย่างแรง // ภาพิมล แก้วโลก */
+.allimg {
+    text-align: center;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ลดอย่างแรง // ภาพิมล แก้วโลก */
+.imgs {
+    display: grid;
+    width: 100px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 67%;
+
+
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ลดอย่างแรง // ภาพิมล แก้วโลก */
+.imgsmall {
+    width: 450px;
+
+}
+
+/* ซูเปอร์มาร์เก๊ต */
+/* // หน้าแสดงสินค้า หมวดหมู่ซูเปอร์มาร์เก๊ต // ภาพิมล แก้วโลก */
+.supermarket {
+    border-bottom: 5px solid #0066CC;
+    margin-bottom: 1rem;
+    color: #0066CC
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ซูเปอร์มาร์เก๊ต // ภาพิมล แก้วโลก */
+.super {
+    text-align: center;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ซูเปอร์มาร์เก๊ต // ภาพิมล แก้วโลก */
+.imgs-1 {
+    display: grid;
+    width: 100px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 67%;
+
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ซูเปอร์มาร์เก๊ต // ภาพิมล แก้วโลก */
+.imgsmall-2 {
+    width: 450px;
+}
+
+/*ผลิตภัณฑ์สำหรับสัตว์เลี้ยง*/
+/* // หน้าแสดงสินค้า หมวดหมู่ผลิตภัณฑ์สำหรับสัตว์เลี้ยง // ภาพิมล แก้วโลก */
+.food {
+    border-bottom: 5px solid #FF9900;
+    margin-bottom: 1rem;
+    color: #FF9900;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ผลิตภัณฑ์สำหรับสัตว์เลี้ยง // ภาพิมล แก้วโลก */
+.fruit {
+    text-align: center;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ผลิตภัณฑ์สำหรับสัตว์เลี้ยง // ภาพิมล แก้วโลก */
+.imgs-2 {
+    display: grid;
+    width: 100px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 67%;
+
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ผลิตภัณฑ์สำหรับสัตว์เลี้ยง // ภาพิมล แก้วโลก */
+.imgsmall-3 {
+    width: 450px;
+}
+
+/* ความงามและของใช้ส่วนตัว */
+/* // หน้าแสดงสินค้า หมวดหมู่ความงามและของใช้ส่วนตัว // ภาพิมล แก้วโลก */
+.beauty {
+    border-bottom: 5px solid #CC00CC;
+    margin-bottom: 1rem;
+    color: #CC00CC;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ความงามและของใช้ส่วนตัว // ภาพิมล แก้วโลก */
+.beauty-1 {
+    text-align: center;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ความงามและของใช้ส่วนตัว // ภาพิมล แก้วโลก */
+.imgs-4 {
+    display: grid;
+    width: 100px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 67%;
+
+}
+
+
+
+
+/* แฟชั่น */
+/* // หน้าแสดงสินค้า หมวดหมู่แฟชั่น // ภาพิมล แก้วโลก */
+.fashion {
+    border-bottom: 5px solid #FF0000;
+    margin-bottom: 1rem;
+    color: #FF0000;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่แฟชั่น // ภาพิมล แก้วโลก */
+.fashion-1 {
+    text-align: center;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่แฟชั่น // ภาพิมล แก้วโลก */
+.imgs-3 {
+    display: grid;
+    width: 100px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 67%;
+
+}
+/* // หน้าแสดงสินค้า หมวดหมู่แฟชั่น // ภาพิมล แก้วโลก */
+.imgsmall-4 {
+    width: 450px;
+}
+
+/* <!-- อุปกรณ์และของใช้ภายในบ้าน --> */
+/* // หน้าแสดงสินค้า หมวดหมู่อุปกรณ์และของใช้ภายในบ้าน // ภาพิมล แก้วโลก */
+.householditems {
+    border-bottom: 5px solid #FFA500;
+    margin-bottom: 1rem;
+    color: #FFA500;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่อุปกรณ์และของใช้ภายในบ้าน // ภาพิมล แก้วโลก */
+.householditems-1 {
+    text-align: center;
+}
+/* // หน้าแสดงสินค้า หมวดหมู่ลดอย่างแรง // ภาพิมล แก้วโลก */
+.imgbig{
+    display: block;
+    margin: auto;  
+}
+.imgAll{
+    display: block;
+    margin: auto;  
+}
+.imgAll-1{
+    display: block;
+    margin: auto;
+}
+.imgAll-3{
+    display: block;
+    margin: auto;
+}
+
+.imgAll-2{
+    display: block;
+    margin: auto; 
+}
+
+.imgB{
+    display: block;
+    margin: auto;  
+}
+/* // หน้าแสดงสินค้า หมวดหมู่อุปกรณ์และของใช้ภายในบ้าน // ภาพิมล แก้วโลก */
+.imgs-5 {
+    display: grid;
+    width: 450px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 67%;
+
+}
+/* // หน้าแสดงสินค้า หมวดหมู่อุปกรณ์และของใช้ภายในบ้าน // ภาพิมล แก้วโลก */
+.imgs-6 {
+    width: 450px;
+}
+
+.sindbar {
+    padding: 0;
+    border-top: 5px solid #00CC00;
+    /* background-color: gray; */
+}
+
+/* 1 */
+
+.pay {
+    border-bottom: 1px solid rgb(143, 135, 135);
+
+}
+
+.imgpay {
+    width: 100px;
+}
+
+.pay55{
+    display: flex;
+    margin-left: 15%;
+}
+
+.check{
+    display: flex;
+    margin-left: 20%;
+}
+
+/* 2 */
+.po {
+    border-bottom: 1px solid rgb(143, 135, 135);
+
+}
+
+.po-1 {
+    width: 100px;
+}
+
+/* 3 */
+.so {
+    border-bottom: 1px solid rgb(143, 135, 135);
+
+}
+
+.so-1 {
+    width: 100px;
+}
+
+.mainbot-1 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.promotion-1 {
+    border-bottom: 5px solid rgb(248, 21, 21);
+    margin-bottom: 1rem;
+    display: flex;
+    color: rgb(248, 21, 21);
+
+}
+
+h6 {
+    margin-left: auto;
+    color: rgb(65, 66, 65);
+}
+
+.promotion-2 {
+    border-bottom: 5px solid rgb(4, 161, 4);
+    margin-bottom: 1rem;
+    display: flex;
+    color: green
+}
+
+h6 {
+    margin-left: auto;
+}
+
+.promotion-3 {
+    border-bottom: 5px solid #0066CC;
+    margin-bottom: 1rem;
+    display: flex;
+    color: #0066CC;
+
+}
+
+h6 {
+    margin-left: auto;
+    color: rgb(65, 66, 65);
+}
+
+.promotion-4 {
+    border-bottom: 5px solid #FF9900;
+    margin-bottom: 1rem;
+    display: flex;
+    color: #FF9900;
+}
+
+h6 {
+    margin-left: auto;
+    color: rgb(65, 66, 65);
+}
+
+.promotion-5 {
+    border-bottom: 5px solid #CC00CC;
+    margin-bottom: 1rem;
+    display: flex;
+    color: #CC00CC;
+
+}
+
+h6 {
+    margin-left: auto;
+    color: rgb(65, 66, 65);
+}
+
+.promotion-6 {
+    border-bottom: 5px solid #FF0000;
+    margin-bottom: 1rem;
+    display: flex;
+    color: #FF0000;
+
+}
+
+h6 {
+    margin-left: auto;
+    color: rgb(65, 66, 65);
+}
+
+.promotion-7 {
+    border-bottom: 5px solid #FFA500;
+    margin-bottom: 1rem;
+    display: flex;
+    color: #FFA500;
+
+}
+
+h6 {
+    margin-left: auto;
+    color: rgb(65, 66, 65);
+}
+
+.flashIMG {
+    width: 10rem;
+}
+
+/* css slider */
+
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    margin: auto;
+
+    max-width: 1200px;
+    position: relative;
+}
+
+.wrapper i {
+
+    z-index: 50;
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+.wrapper i:active {
+
+    transform: translateY(-50%) scale(0.9);
+}
+
+.wrapper i:hover {
+    background: #f2f2f2;
+}
+
+.wrapper i:first-child {
+    left: -22px;
+    display: none;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+
+}
+
+.wrapper .carousel {
+    /* font-size: 0px; */
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img {
+    margin-top: 1rem;
+    height: 250px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(75% / 3);
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carousel img {
+        width: 100%;
+    }
+}
+
+.flashIMG .label {
+    border: 2px solid #00CC00;
+}
+
+.flashDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+  
+  .carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  
+  .carousel-control {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+.control .next
+,.control .next2{
+font-size: 2rem;
+color: #e90000;
+position: absolute;
+top: 30%;
+width: 50px;
+height: 50px;
+line-height: 50px;
+transition: 0.5s;
+z-index: 20;
+opacity: 100;
+}
+.control .next2{
+    left: 1%;
+
+}
+.control_btn .next{
+    left: 100%;
+}
+.form-control{
+    height: 2rem;
+}

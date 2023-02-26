@@ -1,0 +1,69 @@
+/* //พชร วิเชียรน้อย
+// ภาพิมล แก้วโลก ช่วยแต่งหน้า Front-end */
+.register-btn {
+    width: 29rem;
+    height: 3em;
+    background-color: rgb(32, 177, 255);
+  transition: 0.5s;
+  border-radius: 15px ;
+  border: 2px solid rgb(117, 209, 245);
+}
+
+.register-btn:hover {
+    width: 30rem;
+    height: 3.5em;
+    background-color: rgb(32, 177, 255);
+  transition: 0.5s;
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+/* 
+@font-face {
+    font-family: "CustomFont";
+    src: url();
+} */
+
+.ลองดู{
+    text-align: center;
+}
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.cover {
+    background-color: white;
+    width: 30em;
+    height: 35em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+}
+
+input:focus {
+    outline-color: rgb(32, 177, 255);
+}
+
+.h1 {
+    font-size: 50px;
+}

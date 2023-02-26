@@ -1,0 +1,111 @@
+/* //พชร วิเชียรน้อย
+// ภาพิมล แก้วโลก ช่วยแต่งหน้า Front-end */
+input {
+    background-color: rgb(229, 226, 226);
+    height: 3px;
+    width: 29rem;
+    border-radius: 15px !important;
+
+}
+
+.input-login {
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 15px !important;
+}
+
+h1 {
+    color: rgb(27, 200, 105);
+}
+
+h3 {
+    color: red;
+}
+
+hr {
+    margin-left: 27rem;
+    margin-right: 27rem;
+}
+
+/* .google {
+
+    transition: 1s;
+    width: 300px !important;
+    border-radius: 15px !important;
+text-align: center ;
+    
+} */
+
+/* .facebook {
+
+     transition: 1s;
+    width: 300px !important;
+
+    border-radius: 15px !important;
+
+    
+} */
+button.facebook {
+    border-radius: 15px !important;
+    margin-left: 2em !important;
+    transition: 0.5s;
+}
+
+button.google {
+    width: 18rem;
+    border-radius: 15px !important;
+    margin-left: 3em !important;
+    transition: 0.5s;
+}
+
+.text {
+    text-align: left;
+    margin-right: 22rem;
+    text-decoration: none;
+}
+
+.gg-fb {
+    margin-top: 0;
+    margin-right: 30rem;
+    margin-left: 750px;
+    transition: 1s;
+    width: 300px !important;
+    border-radius: 15px !important;
+    text-align: center;
+}
+
+.login-btn {
+    background-color: rgb(117, 209, 245);
+    width: 29rem;
+    height: 30px;
+    border-radius: 15px !important;
+    border: 2px solid rgb(117, 209, 245);
+    transition: 0.5s;
+}
+
+.google:hover {
+    transform: scale(1.25);
+}
+
+.facebook:hover {
+    transform: scale(1.25);
+}
+
+button.google:hover {
+    transform: scale(1.25) !important;
+    transition: 0.5s;
+}
+
+button.facebook:hover {
+    transform: scale(1.25) !important;
+    transition: 0.5s;
+}
+
+.login-btn:hover {
+    background-color: rgb(81, 146, 172);
+    width: 29rem;
+    height: 30px;
+    border-radius: 15px !important;
+    border: 2px solid rgb(81, 146, 172);
+    transition: 0.5s;
+}
